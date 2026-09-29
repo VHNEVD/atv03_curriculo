@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Zuckerberg - Desenvolvedor Web</title>
+</head>
+<body>
+
+    <!-- Cabeçalho & Navegação -->
+    <header>
+        <h1>Mark Zuckerberg - Desenvolvedor Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <!-- Seção Sobre Mim -->
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <img src="imagem_curriculo.jpg" alt="Foto de perfil de Mark Zuckerberg" width="190" height="170">
+            
+            <p>Sou estudante de <strong>Desenvolvimento de Sistemas</strong> no SENAI.</p>
+            <p>Tenho conhecimento em <em>HTML, CSS e estou aprendendo JavaScript.</em></p>
+
+            <h3>Minhas Habilidades:</h3>
+            <ul>
+                <li>HTML5 Semântico</li>
+                <li>CSS3 e Responsividade</li>
+                <li>Formulários e Validação</li>
+                <li>Estruturação de Dados</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Seção Meus Projetos -->
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Projeto</th>
+                        <th>Tecnologias</th>
+                        <th>Status</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sistema de chamados</td>
+                        <td>HTML, CSS</td>
+                        <td>Concluído</td>
+                        <td><a href="#">Ver Projeto</a></td>
+                    </tr>
+                    <tr>
+                        <td>Loja Smart Watch</td>
+                        <td>HTML, CSS, JavaScript</td>
+                        <td>Concluído</td>
+                        <td><a href="#">Ver Projeto</a></td>
+                    </tr>
+                    <tr>
+                        <td>Jogo Space Invaders</td>
+                        <td>HTML, CSS, JavaScript</td>
+                        <td>Em Andamento</td>
+                        <td><a href="#">Ver Projeto</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Seção Entre em Contato -->
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Dados do Contato</legend>
+
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="assunto">Assunto:</label><br>
+                    <select id="assunto" name="assunto">
+                        <option value="oportunidade">Oportunidade de Trabalho</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="outro">Outro</option>
+                    </select><br><br>
+
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="5" cols="25" required></textarea><br><br>
+
+                    <button type="submit">Enviar Mensagem</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Meta. Desenvolvido durante o curso do SENAI.</p>
+        <p>
+            <a href="victorhugovolts@gmail.com">victorhugovolts@gmail.com</a> | 
+            <a href="tel:11963861995">(11) 96386-1995</a>
+        </p>
+    </footer>
+
+</body>
+</html>
